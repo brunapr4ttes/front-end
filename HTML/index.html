@@ -41,17 +41,67 @@
     -->
     <hr>
     <h2>Lista Ordenada</h2>
-    <ol type="A">
+    <ol type="1">
+        <!-- type =(1, a A, I, i)-->
         <li>Item 01</li>
         <li>Item 02</li>
         <li>Item 03</li>
     </ol>
-
+    
     <h2>Lista Não Ordenada</h2>
-        <ul>
+    <ul type="disc">
+            <!-- type =(circle, square, disc)-->
             <li>Item 01</li>
             <li>Item 02</li>
             <li>Item 03</li>
         </ul>
+    <hr>
+    <h2>Tabelas</h2>
+    <table border="10">
+        <tr>
+            <td><strong>RA</strong></td>
+            <td><strong>Nome Aluno</strong></td>
+            <td><strong>Idade</strong></td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Bruna Prates</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Arthur de Amorim</td>
+            <td>17</td>
+        </tr>
+    </table>
+
+    <h2>Tabela Organizada</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Código</td>
+                <td>Produto</td>
+                <td>Valor</td>
+                <td rowspan="4">Vendas</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td>R$4.000,00</td>
+                <td rowspan="2">Gamer</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Cadeira</td>
+                <td>R$1.000,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="2">Total</td>
+            <td>R$7.000,00</td>
+        </tfoot>
+    </table>
 </body>
 </html>
