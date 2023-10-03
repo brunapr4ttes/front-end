@@ -1,8 +1,22 @@
-div{
+/* div{
     border: 2px solid black
 }
 span{
     color:blueviolet;
     font-size: 20px;
     border: 2px solid blue;
+} */
+
+
+.navbar{
+    background-color: aqua; /*Cor de fundo*/
+    height: 100px; /*Altura do elemento*/
+}
+.container{
+    background-color: blueviolet;
+    height: 500px;
+}
+.footer{
+    background-color: blue;
+    height: 150px;
 }
