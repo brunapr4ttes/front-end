@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    transition: 0.2s;
+}
+
+/* a:link{
+    color: #fff;
+}
+
+a:visited{
+    color: blueviolet;
+} */
+
+a:hover{
+    background-color: pink;
+    color: black;
+    font-size: 30px;
+    /* display: none; */
+}

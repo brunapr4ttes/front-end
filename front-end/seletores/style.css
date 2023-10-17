@@ -1,0 +1,19 @@
+#textoPreto{
+    color: green;
+}
+#textoVermelho{
+    color: red;
+}
+#textoAzul{
+    color: blue;
+}
+#textoViolet{
+    color: violet
+}
+.subtitulo{
+    color: white;
+    background: black;
+}
+.palavraPreta{
+    color: black;
+}
