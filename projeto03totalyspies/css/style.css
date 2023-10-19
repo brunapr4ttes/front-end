@@ -139,3 +139,9 @@ a:hover{
     font-size: 30px;
 }
 
+.about{
+    text-decoration: none;
+    background-color: var(--purple);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}

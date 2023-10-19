@@ -1,0 +1,44 @@
+.container{
+    height: 700px;
+    width: 700px;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column; /*horizontal eixo abcissas, vertical eixo ordenadas*/
+    flex-direction: row; /*horizontal eixo abcissas, vertical eixo ordenadas*/
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    /* eixo y */
+
+    align-items: flex-end;
+    align-items: flex-start;
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    /* gap: 10px;
+    gap: 10px 20px;  (row-gap column gap)
+    row-gap: 10px;
+    column-gap: 20px; */
+}
+
+div{
+    border: 1px solid black;
+}
+
+.box-01, .box-02, .box-03, .box-04, .box-05, .box-06{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box-01{
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.box-02, .box-04, .box-06{
+    align-self: flex-end;
+}
